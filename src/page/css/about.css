@@ -1,0 +1,6 @@
+.about_container{
+    width: 100%;
+    height: 36rem;
+    display: flex;
+    align-items: center;
+}

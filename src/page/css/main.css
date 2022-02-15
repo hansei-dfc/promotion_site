@@ -2,11 +2,11 @@
     width: 100%;
     height: 36rem;
     display: flex;
-    align-items: center
+    align-items: center;
 }
 .left_box{
     display: flex;
-    width: 28%;
+    width: 26.75%;
 }
 .line{
     background-color: white;
@@ -94,4 +94,31 @@
     font-size: 250px;
     color: white;
     margin-top: 150px;
+    z-index: 100;
 }
+.lockopen_icon{
+    font-size: 250px;
+    color: white;
+    margin-top: 150px;
+    display: none;
+    margin-left: 60px;
+    z-index: 100;
+}
+
+.right_box:hover .lock_icon_back{
+    display: none;
+}
+
+.right_box:hover .lockopen_icon{
+    display: block;
+}
+
+@keyframes circle-size {
+    to {
+      height: 40px;
+    }
+  }
+
+
+
+

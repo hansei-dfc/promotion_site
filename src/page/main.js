@@ -21,12 +21,17 @@ function main() {
                 <div className="main_fullname">
                     Digital Forensic
                 </div>
-                <a className="application" href="">동아리 신청</a>
+                <a className="application" href="https://forms.gle/jnotd2L6BEJ9NjCX6">동아리 신청</a>
 
             </div>
             <div className="small_line"></div>
             <div className="right_box">
-                <FontAwesomeIcon  className="lock_icon" icon={faLock}/>
+                <div className="lock_icon_back">
+                    <FontAwesomeIcon  className="lock_icon" icon={faLock}></FontAwesomeIcon>
+                </div>
+                <a href="">
+                    <FontAwesomeIcon className="lockopen_icon" icon={faLockOpen}></FontAwesomeIcon>
+                </a>                
                 <div className="guide_box">
                     <FontAwesomeIcon  className="angleup_icon" icon={faAngleUp}/>
                     <a className="guide_text" href="">hanseiDFC 워게임으로 이동</a>

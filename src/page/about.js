@@ -7,7 +7,9 @@ import { useMediaQuery } from 'react-responsive'
 function about() {
     return (
         <div className="about_container">
-            
+            <div className="">
+
+            </div>
         </div>
     );
   }
