@@ -5,6 +5,9 @@ import { faLock } from "@fortawesome/free-solid-svg-icons";
 import { faLockOpen } from "@fortawesome/free-solid-svg-icons";
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 
+function test(){
+    alert("개발중입니다!")
+}
 
 function main() {
     return (
@@ -29,7 +32,7 @@ function main() {
                 <div className="lock_icon_back">
                     <FontAwesomeIcon  className="lock_icon" icon={faLock}></FontAwesomeIcon>
                 </div>
-                <a href="">
+                <a href="" onClick={test}>
                     <FontAwesomeIcon className="lockopen_icon" icon={faLockOpen}></FontAwesomeIcon>
                 </a>                
                 <div className="guide_box">
